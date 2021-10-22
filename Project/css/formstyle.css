@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    flex-direction: column;
+    margin: 0;
+  
+}
+.header hr{
+    border: 3px solid #BABABA;
+    background-color: #BABABA;
+}
+
+.logo img{
+width: 10%;
+height: 8%;
+
+}
+.container{
+    margin-top: 15px; 
+    margin-bottom: 10px;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    overflow: hidden;
+    max-width: 100%;
+}
+.container-header{
+    background-color: #f7f7f7;
+    padding: 20px 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.container-header h2{
+    margin:0;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative
+}
+.form-control label span{
+    font-size: 11px;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form-control.success input{
+border-color: #2ecc71;
+}
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form-control.error small{
+    color: #e74c3c;
+    visibility:visible
+}
+.form-control1{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative
+}
+.form-control1 small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form-control1 label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.radio{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+}
+
+.form-control1.error small{
+    color: #e74c3c;
+    visibility:visible;
+}
+.form-control3 small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+select{
+    width: 100%;
+    height: 30px;
+    font-family: Poppins;
+   padding: 5px;
+}
+.form-control3.error select{
+    border-color: #e74c3c;
+}
+.form-control3{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative;
+}
+.form-control3.error small{
+    color: #e74c3c;
+    visibility:visible;
+}
+.form-control3.success select{
+border-color: #2ecc71;
+}
+.form-control2 small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ 
+}
+.form-control2{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative
+}
+.cek{
+display: flex;
+
+}
+
+.form-control2.error small{
+    color: #e74c3c;
+    visibility:visible;
+}
+
+.form button{
+    font-family:inherit;
+    background-color: red;
+    border: 2px solid;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+@media screen and (max-width:800px){
+    .container{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        width: 300px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .container-header{
+        background-color: #f7f7f7;
+        padding: 10px 20px;
+        border-bottom: 1px solid #f0f0f0;
+       
+    }
+    .container-header h2{
+        margin:0;
+        font-size: 120%; 
+    }
+    .form{
+        padding: 20px 30px;
+        font-size:80%;
+    }
+    .form-control{
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        position:relative
+    }
+    .form-control label span{
+        font-size: 9px;
+    }
+    .form-control label{
+        display: inline-block;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .form-control input{
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-family: inherit;
+        font-size: 9.5px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .form-control1{
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        position:relative
+    }
+    .form-control1 label{
+        font-size: 12px;
+    }
+    .radio{
+        justify-content: space-between;
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 1px;
+        font-size: 11px;
+    }
+    select{
+        width: 100%;
+        height: 20px;
+        font-family: Poppins;
+       padding: 1px;
+       font-size: 11px;
+    }
+    .form-control2{
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        position:relative;
+    }
+    .form-control2 label{
+        font-size: 12px;
+    }
+    .form-control3 label{
+        font-size: 12px;
+    }
+    .form-control3{
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        position:relative;
+    }
+    .form-control small{
+        font-size: 9px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .form-control1 small{
+        font-size: 9px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .form-control2 small{
+        padding-top: 10px;
+        font-size: 8px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .form-control3 small{
+        font-size: 9px;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}   
+@media screen and (max-width:500px) {
+    .logo img{
+        width: 20%;
+        height: 10%;
+    }
+    .container-header h2{
+        margin:0;
+        font-size: 80%; 
+    }
+    .form-control2 label{
+        font-size: 11px;
+    }
+    .form-control label span{
+        font-size: 8px;
+    }
+}

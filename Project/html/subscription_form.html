@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/formscript.js" defer></script>
+    <link rel="stylesheet" href="../css/formstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../assets/LETFLIX.png" alt="">
+        </div>
+        
+        <hr>
+    </div>
+    <div>
+    <div class="container">
+        <div class="container-header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form" action="../html/index.html">
+        <div class="form-control">
+            <label for="username">Username<span> (must be alphanumeric without any special characters)</span></label>
+            <input type="text" placeholder="Input your Username" id="username">
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password <span>( 6 words minimum length )</span></label>
+            <input type="password" placeholder="Input your password" id="password">
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Confirm Password</label>
+            <input type="password" placeholder="Confirm your password" id="confpassword">
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Input your email must end with .com" id="email">
+            <small>Error message</small>    
+        </div>
+        <div class="form-control1">
+            <label for="gender">Gender</label>
+            <div class="radio" id="radiogender">
+            <div class="Male"><input type="radio" name="gender" id="Male" value="Male">Male</div>
+           <div class="Female"><input type="radio" name="gender" id="Female" value="Female">Female</div>
+            <div class="Others"><input type="radio" name="gender" id="Others" value="Others">Others</div>
+            </div>
+            <small>Error message</small>
+            
+        </div>
+        <div class="form-control3">
+            <label for="substype">Pick your subscription plan</label>
+            <div class="option" id="option">
+            <select name="subsplan" id="subsplan">
+            <option value="">Select subscription plan</option>
+            <option value="Silver" id="Silver">Silver</option>
+            <option value="Gold" id="Gold">Gold</option>
+            <option value="Diamond" id="Diamond">Diamond</option>
+            </select>
+            </div>
+            <small>Error message</small>
+        </div>
+        <div class="form-control2">
+            <div class="cek" id="cek">
+            <input type="checkbox" id="termsncond">
+            <label for="terms">I agree with terms and condition.</label>
+        </div>
+            <small>Error message</small>
+        </div>
+      <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
